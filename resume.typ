@@ -1,5 +1,4 @@
-#import "@preview/basic-resume:0.1.3": *
-
+#import "/basic-resume/src/resume.typ": *
 
 // Put your personal information here, replacing mine
 #let name = "May Tusek"
@@ -86,18 +85,39 @@
 #project(
   role: "Lisp Implementations",
   name: "C, C#, Rust, Python",
-  url: "https://github.com/queercat/bagel, https://github.com/queercat/borger, https://github.com/queercat/mal-python, https://github.com/may-20i/MAL"
+  urls: (
+    "github.com/queercat/bagel", 
+    "github.com/queercat/borger", 
+    "github.com/queercat/mal-python", 
+    "github.com/may-20i/MAL"
+    )
 )
 - Built serveral LISP implementations in multiple languages to explore language design and compilation concepts.
 
 #project(
   role: "Pratt Parser",
   name: "JavaScript, TypeScript, Node",
-  url: "https://github.com/queercat/bantam-pratt-parser-typescript"
+  urls: ("github.com/queercat/bantam-pratt-parser-typescript",)
 )
+- Built a Pratt parser for the Bantam language in TypeScript.
+- Was merged into the references repository by Rob Nystrom.
+
+#project(
+  role: "Lua Parser",
+  name: "JavaScript, TypeScript, Node",
+  urls: ("git.moon.horse/mayo/jlua", "moon.horse/tools/lua-parser")
+)
+- A working Lua parser in TypeScript.
+- Hand written lexer and parser.
+
+#project(
+  role: "Pixly", 
+  name: "TypeScript, Node",
+  urls: ("git.moon.horse/mayo/pixly",)
+)
+- Parser and bytecode compiler & interpreter written in TypeScript.
+
 
 == Skills and Awards
-- *Programming Languages*: JavaScript, Python, C/C++, HTML/CSS, Java, Bash, R, Flutter, Dart
-- *Technologies*: React, Astro, Svelte, Tailwind CSS, Git, UNIX, Docker, Caddy, NGINX, Google Cloud Platform
-- *Awards*: 1st CorCTF 2024 (\$1337), 3rd PicoCTF 2023 (\$1000), 1st BCACTF 2023 (\$500)
-- *Interests*: Classical Literature, Creative Writing, Tetris
+- *Programming Languages*: Python, JavaScript, Java, Go, C++, SQL, C\#, Bash, Rust, HTML / CSS, Ocaml, Elixir, Ruby, Lua, C, TypeScript
+- *Technologies*: Express.js, Jest, Vitest, jQuery, React, Next.js, Flask, Vue, Unity, Firebase, Docker, Git, GitHub, BERT, AI / ML, Compilers, Websockets, Webassembly
