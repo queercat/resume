@@ -111,13 +111,12 @@
 - Hand written lexer and parser.
 
 #project(
-  role: "Pixly", 
-  name: "TypeScript, Node",
-  urls: ("git.moon.horse/mayo/pixly",)
+  role: "CelestAI", 
+  name: "TypeScript, JavaScript, Node, Python, GPT-3, OpenAI",
+  urls: ("github.com/queercat/CelestAI-Chat",)
 )
-- Parser and bytecode compiler & interpreter written in TypeScript.
-
+- A chatbot that is finetuned off of a novel data generation pipeline built with GPT-3.
 
 == Skills and Awards
 - *Programming Languages*: Python, JavaScript, Java, Go, C++, SQL, C\#, Bash, Rust, HTML / CSS, Ocaml, Elixir, Ruby, Lua, C, TypeScript
-- *Technologies*: Express.js, Jest, Vitest, jQuery, React, Next.js, Flask, Vue, Unity, Firebase, Docker, Git, GitHub, BERT, AI / ML, Compilers, Websockets, Webassembly
+- *Technologies*: Express.js, Jest, Vitest, jQuery, React, Next.js, Flask, Vue, Unity, Firebase, Docker, Git, GitHub, BERT, AI / ML, Compilers, Websockets, Webassembly, Phoenix, Ruby on Rails
