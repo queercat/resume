@@ -51,7 +51,7 @@
 - Developed internal AI / ML products with BERT and multi-language text classification and generation.
 
 #work(
-  title: "Software Engineer",
+  title: "Software Engineer, Compilers",
   location: "Remote, OR",
   company: "Fundament Software",
   dates: dates-helper(start-date: "November 2022", end-date: "February 2023"),
@@ -61,7 +61,7 @@
 - Built internal tooling for benchmarking.
 
 #work(
-  title: "Software Engineer",
+  title: "Software Engineer, Application Development",
   location: "Eugene, OR",
   company: "Glimmertech",
   dates: dates-helper(start-date: "January 2022", end-date: "November 2022"),
