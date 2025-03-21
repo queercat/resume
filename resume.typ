@@ -47,8 +47,9 @@
 )
 - Led architecture and implementation of major features for at-scale cloud platform.
 - Architected, implemented, and communicated technical designs to clients and stakeholders.
-- Supported and elevated my team by distilling infrastructural and project knowledge alongside mentorship.
-- Developed internal AI / ML products with BERT and multi-language text classification and generation.
+- Supported and empowered my team as technical lead by distilling infrastructural and project knowledge alongside mentorship.
+- Developed internal AI / ML products with BERT and Sagemaker for multi-language text classification and generation.
+- Built and deployed RAG and RAR agent pipelines utilizing Elasticsearch, Langchain, Neo4j, and Amazon Bedrock.
 
 #work(
   title: "Software Engineer, Compilers",
@@ -57,8 +58,7 @@
   dates: dates-helper(start-date: "November 2022", end-date: "February 2023"),
 )
 - Worked on the Scopes compiler.
-- Wrote standard libraries and frameworks.
-- Built internal tooling for benchmarking.
+- Wrote a production grade JSON parser, standard libraries, and frameworks.
 
 #work(
   title: "Software Engineer, Application Development",
@@ -66,9 +66,9 @@
   company: "Glimmertech",
   dates: dates-helper(start-date: "January 2022", end-date: "November 2022"),
 )
-- Built 3D and VR applications using Unity and C\#.
+- Built 3D and VR applications using Unity, C\#, and OpenXR.
 - Developed scalable infrastructure with Firebase.
-- Built application forms for supporting registration and usage of application.
+- Created modern and concise user driven forms supporting various input devices.
 
 #work(
   title: "Software Engineer & Database Administrator",
@@ -76,31 +76,26 @@
   company: "B & R Autowrecking",
   dates: dates-helper(start-date: "December 2019", end-date: "September 2020"),
 )
-- Created applications to handle billing and processing of millions of inventory items, optimizing out a manual process with a 10,000% increase in efficiency.
-- Presented results of data analysis and internal accounting to key stakeholders.
+- Created applications to handle billing and processing of millions of inventory items.
+- Optimized out a manual process with a 10x increase in efficiency.
 - Built internal tooling in Rust and Python.
 
 == Projects
 
 #project(
-  role: "Lisp Implementations",
-  name: "C, C#, Rust, Python",
-  urls: (
-    "github.com/queercat/bagel", 
-    "github.com/queercat/borger", 
-    "github.com/queercat/mal-python", 
-    "github.com/may-20i/MAL"
-    )
+  role: "Bfcompile",
+  name: "Rust",
+  urls: ("github.com/queercat/bfcompile",)
 )
-- Built serveral LISP implementations in multiple languages to explore language design and compilation concepts.
+- Blazingly fast parser, bytecode compiler, and virtual machine written for an esolang in Rust.
 
 #project(
-  role: "Pratt Parser",
-  name: "JavaScript, TypeScript, Node",
-  urls: ("github.com/queercat/bantam-pratt-parser-typescript",)
+  role: "Cerberus",
+  name: "JavaScript, TypeScript, Node, Elixir, Phoenix, PostgreSQL",
+  urls: ("github.com/queercat/cerberus",)
 )
-- Built a Pratt parser for the Bantam language in TypeScript.
-- Was merged into the references repository by Rob Nystrom.
+- Built a fullstack filestorage application using a React frontend, and Phoenix backend.
+- Full E2E encryption and passwordless authentication with SRP for 0-knowledge proofs.
 
 #project(
   role: "Lua Parser",
@@ -108,15 +103,16 @@
   urls: ("git.moon.horse/mayo/jlua", "moon.horse/tools/lua-parser")
 )
 - A working Lua parser in TypeScript.
-- Hand written lexer and parser.
+- Hand written lexer and recursive descent parser.
 
 #project(
   role: "CelestAI", 
   name: "TypeScript, JavaScript, Node, Python, GPT-3, OpenAI",
   urls: ("github.com/queercat/CelestAI-Chat",)
 )
-- A chatbot that is finetuned off of a novel data generation pipeline built with GPT-3.
+- A GPT 3.5 powered LLM finetuned and built with a role-actor model.
+- Built a novel data generation pipeline with a personality "card" oriented actor system.
 
 == Skills and Awards
-- *Programming Languages*: Python, JavaScript, Java, Go, C++, SQL, C\#, Bash, Rust, HTML / CSS, Ocaml, Elixir, Ruby, Lua, C, TypeScript
-- *Technologies*: Express.js, Jest, Vitest, jQuery, React, Next.js, Flask, Vue, Unity, Firebase, Docker, Git, GitHub, BERT, AI / ML, Compilers, Websockets, Webassembly, Phoenix, Ruby on Rails
+- *Programming Languages*: Python, JavaScript, Java, Go, C++, SQL, C\#, Bash, Rust, HTML / CSS, Ocaml, Elixir, Ruby, Lua, C, TypeScript, SQL
+- *Technologies*: Express.js, Jest, Vitest, jQuery, React, Next.js, Flask, Vue, Unity, Firebase, Docker, Git, GitHub, BERT, AI / ML, Elasticsearch, Neo4j, Langchain, Sagemaker, Compilers, Websockets, Webassembly, Phoenix, Ruby on Rails
